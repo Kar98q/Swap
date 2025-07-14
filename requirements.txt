@@ -4,3 +4,4 @@ pillow==10.2.0
 numpy==1.26.4
 insightface==0.7.3
 onnxruntime==1.16.0
+protobuf==3.20.3  # Versi spesifik untuk menghindari konflik
