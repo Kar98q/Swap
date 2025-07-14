@@ -1,0 +1,14 @@
+name: swap-face
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.12
+  - pip
+  - pip:
+    - streamlit==1.32.0
+    - opencv-python-headless==4.8.1.78
+    - pillow==10.1.0
+    - numpy==1.26.4
+    - insightface==0.7.3
+    - onnxruntime==1.15.1
+    - protobuf==3.20.3
